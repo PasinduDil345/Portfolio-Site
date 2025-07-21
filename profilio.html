@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website- Pasindu Dilhara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4b6bda0dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">     
+        <nav>
+            <img src="image/y.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>              
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>                        
+        </nav>
+        <div class="headertext">
+            <p>Software developer/Graphic Disigner</p>
+            <h1>Hello! I'm <span>Pasindu</span><br>From Sri Lanka</h1>
+        </div>
+    </div>
+</div>
+<!------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/o.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Pasindu Dilhara.I passed G.C.E Ordinary Level and Advanced Level examinations. Currently 
+                    I'm studying Bsc. Software Engineering Degree at SLTC Research Univercity.I live in colombo. I'm 
+                    a skilled software developer and graphic disigner. I like to work in the IT industry as a software engineer
+                    after completed my Bsc. Software Engineering degree. </p>
+                    
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software developer/Graphic Disigner</span><br>Creating Apps</li>
+                        <li><span>Web Devlopment</span><br>Desinging Web/App inter-face</li>
+                        <li><span>App Devlopment</span><br>Bulding Anroid/IOS games</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Desinging Wallpapers/Apps</li>
+                        <li><span>2019-2021</span><br>Desinging Games/App inter-face</li>
+                        <li><span>2016-2017</span><br>Developing Game interface/Android and ISO apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>Passed G.C.E O/L Examination</li>
+                        <li><span>2020</span><br>Passed G.C.E A/L Examination</li>
+                        <li><span>2022</span><br>Bsc. Software Engineering(UG)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Creating Apps</h2>
+                <p> The act or process of creating a mobile app for a mobile device,
+                    such as a personal digital assistant, business digital assistant, 
+                    or mobile phone, is known as mobile app development. These software 
+                    programs are created to function on portable electronics like 
+                    smartphones and tablets.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Software developing/Graphic Disigner</h2>
+                <p>The process of conceiving, defining, designing, programming, documenting,
+                     testing, and bug-fixing that goes into making and maintaining applications,
+                    frameworks, or other software components is known as software development.
+                    And the Graphic design is a field of study, a profession, and an applied
+                    art whose work involves presenting visual messages to target audiences
+                    in order to achieve predetermined goals. 
+                    An integrative area of design and the fine arts is graphic design.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-button"></i>
+                <h2>Building Anroid/IOS games</h2>
+                <p> Using the Android Game Development Kit and Google Play, you can create Android 
+                    games and distribute them to a variety of devices running Android, Chrome OS, 
+                    and Windows. Use tools, best practices, and gaming services that assist your 
+                    workflow for game development, enhance game performance, and attract a large 
+                    player base.And Native mobile game development normally involves using languages 
+                    native to a device platform for coding. So, you may opt for Java for Android or 
+                    Swift for iOS. You would also find that game development uses web technologies such
+                     as JavaScript, CSS, and HTML5. </p>
+                <a href="#">learn more</a>
+            </div>
+        </div></div>       
+</div>
+<!----------------profolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/1.png">
+                <div class="layer">
+                    <h3>Creating Game characters</h3>
+                    <p>Role-playing games are the ones with character customization the most frequently.
+                    This is due to the fact that role-playing is fun since it allows for character 
+                    customization. Before starting an adventure, you can choose the characters' gender,
+                    race, height, and a whole lot more. Give your characters compelling reasons to do
+                    what they do. Make each person in a police lineup recognizable. Create characters
+                    that are lovable, hateful, and in between. Make the interactions between characters
+                     and their surroundings fascinating.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/2.png">
+                <div class="layer">
+                    <h3>Modeling simple home architecture</h3>
+                    <p>An architectural model is what? A suggested building design is shown in three 
+                        dimensions on an architectural model. A building or interior design project's
+                        potential size and design can be seen using an architecture model. Architectural
+                        models come in three basic categories: conceptual, presentational, and working designs.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/3.png">
+                <div class="layer">
+                    <h3>Editing Video</h3>
+                    <p>The arranging and alteration of video shots is known as video editing.<br> All video content, 
+                        including movies, television series, video advertising, and video essays, is organized 
+                        and presented using video editing. With the advent of editing tools for home computers,
+                         video editing has become significantly more accessible in recent years. Since video e
+                         diting can be challenging and time-consuming, many tools have been developed to help 
+                         people with this work. In order to provide users with a quicker and more natural approach 
+                         to edit videos, pen-based video editing software was created.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> 
+<!--------------contact--------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>07xxxxxxxx</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/personal cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Pasindu.Made with <i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i> by Pasindu Dilhara</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+        
+    }
+</script>
+
+</body>
+</html>
